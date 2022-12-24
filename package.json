@@ -4,7 +4,7 @@
   "description": "Full language js",
   "main": "webpack.config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack-dev-server --open --hot"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,12 @@
   "bugs": {
     "url": "https://github.com/NenadoPL1Z/full-learn-js/issues"
   },
-  "homepage": "https://github.com/NenadoPL1Z/full-learn-js#readme"
+  "homepage": "https://github.com/NenadoPL1Z/full-learn-js#readme",
+  "devDependencies": {
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1"
+  }
 }
