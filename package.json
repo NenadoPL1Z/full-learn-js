@@ -1,0 +1,22 @@
+{
+  "name": "learn-js",
+  "version": "1.0.0",
+  "description": "Full language js",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NenadoPL1Z/full-learn-js.git"
+  },
+  "keywords": [
+    "js"
+  ],
+  "author": "Rodion",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NenadoPL1Z/full-learn-js/issues"
+  },
+  "homepage": "https://github.com/NenadoPL1Z/full-learn-js#readme"
+}
