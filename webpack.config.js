@@ -4,6 +4,7 @@ const webpack = require("webpack");
 
 module.exports = {
     mode: "development",
+    stats: 'none',
     entry: {
         app: './src/index.js',
         hot: 'webpack/hot/dev-server.js',
@@ -12,6 +13,7 @@ module.exports = {
     devtool: 'inline-source-map',
     devServer: {
         static: './dist',
+        client: { logging: 'none' }
     },
     plugins: [
         new HtmlWebpackPlugin({
