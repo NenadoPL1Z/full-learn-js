@@ -1,3 +1,3 @@
 require('file-loader!../index.html')
 
-console.log("qweeesda")
+console.log("321qwe")
